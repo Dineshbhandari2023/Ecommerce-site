@@ -19,7 +19,7 @@ body {
 /* side-nav */
 
 .box1 {
-  width: 18%;
+  width: 20%;
 }
 .wrapper {
   display: flex;
@@ -62,7 +62,7 @@ body {
 }
 
 .wrapper .sidebar ul li:hover {
-  background-color: #4414a4;
+  background-color: #163037;
 }
 
 .wrapper .sidebar ul li:hover a {
@@ -71,6 +71,7 @@ body {
 /* side-nav end */
 .box2 {
   width: 82%;
+  background-color: bisque;
 }
 /* header */
 .box2-header {
@@ -80,15 +81,16 @@ body {
     rgb(220, 182, 232) 100.2%
   );
   padding: 25px;
+  margin: 5px;
 }
 .btn {
   position: absolute;
   right: 0;
   top: 0;
   margin-right: 30px;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 10px;
-  padding: 7px;
+  padding: 9px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #4414a4;

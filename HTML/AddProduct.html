@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <title>Add Product</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../CSS/AddProduct.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="wrapper box1">
+        <div class="sidebar">
+          <div class="img">
+            <img
+              class="image-logo"
+              src="/images/homepage-images/logo.png"
+              alt=""
+            />
+          </div>
+          <ul>
+            <li>
+              <a href="\HTML\OrderList.html" class="icon-a"
+                ><i class="fa fa-shopping-bag" aria-hidden="true"></i> Order</a
+              >
+            </li>
+            <li>
+              <a href="\HTML\ProductList.html" class="icon-a"
+                ><i class="fa fa-product-hunt" aria-hidden="true"></i>
+                Product</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="box2-header">
+          <a href="../adminLogout">
+            <button class="btn">
+              <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+          </a>
+        </div>
+        <div class="product-heading">
+          <div class="add-product">
+            <h2>Products</h2>
+          </div>
+        </div>
+        <div class="form">
+          <form
+            action="../addProduct"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <div class="product-input-dtls">
+              <label for="ProductID">Product ID</label>
+              <input type="text" name="productId" required />
+              <label for="ProductName">Product Name</label>
+              <input type="text" name="productName" required />
+              <label for="Pice">Price</label>
+              <input type="text" name="productPrice" required />
+              <label for="Brand">Brand</label>
+              <input type="text" name="productBrand" required />
+              <label for="ProductImg">Upload Image</label>
+              <input type="file" name="productImage" required />
+            </div>
+            <input type="submit" value="Add" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

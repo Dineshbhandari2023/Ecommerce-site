@@ -28,11 +28,12 @@ body {
 .wrapper .sidebar {
   width: 100%;
   height: 100%;
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 10% 20%,
     rgb(163, 175, 243) 0%,
     rgb(220, 182, 232) 100.2%
-  );
+  ); */
+  background-color: rgb(198, 218, 236);
   padding: 30px 0px;
   position: relative;
 }
@@ -75,11 +76,12 @@ body {
 }
 /* header */
 .box2-header {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 70% 10%,
     rgb(163, 175, 243) 0%,
     rgb(220, 182, 232) 100.2%
-  );
+  ); */
+  background-color: rgb(198, 218, 236);
   padding: 25px;
   margin: 5px;
 }
@@ -93,11 +95,17 @@ body {
   padding: 9px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #4414a4;
+  background-color: #3a3544;
   color: white;
   border: none;
   border-radius: 15px;
 }
+
+.btn:hover {
+  background-color: rgb(160, 199, 232);
+  color: black;
+}
+
 .product-heading {
   display: flex;
   justify-content: space-between;
@@ -153,7 +161,7 @@ input[type="file"] {
 }
 
 input[type="submit"] {
-  background-color: rgb(240, 178, 20);
+  background-color: rgb(94, 167, 151);
   color: white;
   padding: 10px 20px;
   font-size: 18px;

@@ -16,7 +16,7 @@ body {
 }
 
 .box1 {
-  width: 15%;
+  width: 20%;
   min-height: 100vh;
 }
 .wrapper {
@@ -28,18 +28,19 @@ body {
 }
 .wrapper .sidebar {
   width: 100%;
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 10% 20%,
     rgb(163, 175, 243) 0%,
     rgb(220, 182, 232) 100.2%
-  );
+  ); */
+  background-color: rgb(198, 218, 236);
   padding: 30px 0px;
   position: relative;
 }
 
 .wrapper .sidebar img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 110px;
   margin-left: 30px;
   text-align: center;
   margin-bottom: 20px;
@@ -62,7 +63,7 @@ body {
 }
 
 .wrapper .sidebar ul li:hover {
-  background-color: #4414a4;
+  background-color: #c8acff;
 }
 
 .wrapper .sidebar ul li:hover a {
@@ -74,11 +75,12 @@ body {
 }
 /* header */
 .box2-header {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 70% 10%,
     rgb(163, 175, 243) 0%,
     rgb(220, 182, 232) 100.2%
-  );
+  ); */
+  background-color: rgb(198, 218, 236);
   padding: 25px;
 }
 .btn {
@@ -91,11 +93,17 @@ body {
   padding: 7px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #4414a4;
+  background-color: #3a3544;
   color: white;
   border: none;
   border-radius: 15px;
 }
+
+.btn:hover {
+  background-color: rgb(160, 199, 232);
+  color: black;
+}
+
 .heading-order {
   text-align: center;
   margin-top: 20px;
@@ -125,7 +133,7 @@ body {
 
 .OrderTable th {
   text-align: left;
-  background-color: #4414a4;
+  background-color: #7c8cab;
   color: white;
   padding: 10px;
 }

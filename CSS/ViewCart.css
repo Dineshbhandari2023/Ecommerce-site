@@ -14,10 +14,11 @@ nav {
   background: #7d7b7b;
   width: 100%;
   padding: 10px 0;
-  z-index: 12;
+  z-index: 10;
 }
 nav .menu {
   max-width: 1250px;
+  height: 60px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -27,8 +28,13 @@ nav .menu {
 .menu .logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.logo search-div {
+  justify-content: center;
+  text-align: end;
 }
 .menu ul {
   display: inline-flex;
@@ -44,7 +50,7 @@ nav .menu {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 8px 15px;
   border-radius: 5px;
   transition: all 0.3s ease;
